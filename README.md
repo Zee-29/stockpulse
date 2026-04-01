@@ -3,7 +3,7 @@
 A full-stack stock market application built with React featuring real-time price simulation, portfolio management, and virtual trading.
 
 ## 🚀 Live Demo
-[View Live →](https://YOUR_USERNAME.github.io/stockpulse)
+[View Live →](https://Zee-29.github.io/stockpulse)
 
 ## ✨ Features
 - 📊 Real-time stock price updates (WebSocket simulation)
@@ -25,7 +25,7 @@ A full-stack stock market application built with React featuring real-time price
 
 ## 🏃 Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/stockpulse.git
+git clone https://github.com/Zee-29/stockpulse.git
 cd stockpulse
 npm install
 npm run dev
