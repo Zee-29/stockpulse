@@ -3,7 +3,7 @@
 A full-stack stock market application built with React featuring real-time price simulation, portfolio management, and virtual trading.
 
 ## 🚀 Live Demo
-[View Live →](https://Zee-29.github.io/stockpulse)
+[View Live →](https://stockpulse-opal.vercel.app)
 
 ## ✨ Features
 - 📊 Real-time stock price updates (WebSocket simulation)
@@ -15,7 +15,7 @@ A full-stack stock market application built with React featuring real-time price
 - 👁 Custom watchlists
 - 📋 Reports & analytics with export
 - ⚙️ Admin dashboard with user management
-- 💰 INR (₹) pricing
+  
 
 ## 🛠 Tech Stack
 - **Frontend:** React.js, Context API, CSS Variables
