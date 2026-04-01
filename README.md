@@ -1,16 +1,45 @@
-# React + Vite
+# 📈 StockPulse — Stock Market Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack stock market application built with React featuring real-time price simulation, portfolio management, and virtual trading.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View Live →](https://YOUR_USERNAME.github.io/stockpulse)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- 📊 Real-time stock price updates (WebSocket simulation)
+- 💼 Portfolio tracking with P&L calculations
+- ⚡ Virtual paper trading platform
+- 🔔 Price alert system
+- 📰 Market news with sentiment analysis
+- 📈 Interactive candlestick charts
+- 👁 Custom watchlists
+- 📋 Reports & analytics with export
+- ⚙️ Admin dashboard with user management
+- 💰 INR (₹) pricing
 
-## React Compiler
+## 🛠 Tech Stack
+- **Frontend:** React.js, Context API, CSS Variables
+- **Charts:** Custom SVG candlestick & sparkline charts
+- **Auth:** JWT-ready login/register flow
+- **Real-time:** Simulated WebSocket price feeds
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏃 Run Locally
+```bash
+git clone https://github.com/YOUR_USERNAME/stockpulse.git
+cd stockpulse
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
+```
+src/
+├── StockMarketApp.jsx   # Main application (all modules)
+└── main.jsx             # Entry point
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔮 Backend Integration Ready
+- Alpha Vantage / IEX Cloud for real stock data
+- MongoDB + Mongoose for database
+- Socket.io for live WebSocket updates
+- JWT authentication
